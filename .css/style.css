@@ -1,0 +1,12 @@
+header {
+  background-color: yellow;
+}
+header ul {
+  padding-bottom: 5px;
+}
+header li {
+  list-style: none;
+  display: inline-block;
+}
+
+/*# sourceMappingURL=style.css.map */

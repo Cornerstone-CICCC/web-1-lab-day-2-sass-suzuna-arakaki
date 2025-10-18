@@ -1,0 +1,24 @@
+figure {
+        position: relative;
+        width: 45%;
+        margin: 0;
+
+        img {
+                width: 100%;
+                height: auto;
+        }
+        
+        figcaption {
+                display: none;
+        }
+}
+
+figure:hover figcaption {
+        display: grid;
+        background-color: red;
+        color: white;
+        grid-template-columns: 1;
+        position: absolute;
+        top: 0;
+        left: 0;
+}

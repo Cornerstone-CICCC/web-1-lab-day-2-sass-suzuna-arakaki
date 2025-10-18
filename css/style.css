@@ -1,0 +1,76 @@
+header {
+  background-color: yellow;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+header .logo {
+  padding: 5px 10px;
+}
+header ul {
+  padding-left: 5px;
+}
+header li {
+  list-style: none;
+  display: inline-block;
+  margin: 5px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1;
+}
+.gallery img {
+  height: 100%;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .gallery img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+figure {
+  position: relative;
+  width: 45%;
+  margin: 0;
+}
+figure img {
+  width: 100%;
+  height: auto;
+}
+figure figcaption {
+  display: none;
+}
+
+figure:hover figcaption {
+  display: grid;
+  background-color: red;
+  color: white;
+  grid-template-columns: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+h2 {
+  background-color: aqua;
+  position: sticky;
+  top: 73px;
+}
+
+.back-to-top-btn a {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: black;
+  color: white;
+  padding: 10px 5px;
+}
+
+/*# sourceMappingURL=style.css.map */

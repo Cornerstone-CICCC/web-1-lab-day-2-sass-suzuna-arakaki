@@ -1,0 +1,20 @@
+@use 'header';
+@use 'gallery';
+@use 'figure';
+
+
+h2 {
+        background-color: aqua;
+        position: sticky;
+        top: 73px;
+
+}
+
+.back-to-top-btn a {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        background-color: black;
+        color: white;
+        padding: 10px 5px;
+}
